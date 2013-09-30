@@ -1,0 +1,1 @@
+$(function(){var e=$("#tweet"),t=e.data("text");$(".timer").on("hype.tick",function(n,r){var i=r.days+" days, "+r.hours+" hours, "+r.mins+" mins, "+r.secs+" secs";e.attr("data-text",t+" "+i)});$(".timer").hyper({starts_at:new Date(2013,10,29,0,0,0,0)})});

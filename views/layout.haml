@@ -1,0 +1,25 @@
+!!!HTML
+%html
+  %head
+    %title Playstation 4 Countdown
+    %link{:href => "http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700", :rel => "stylesheet" , :media => "all"}
+    %link{:href => "/css/app.css" , :rel => "stylesheet" , :media => "all"}
+    %script{:src => "/js/prefixfree.min.js"}
+  %body
+    =yield
+    %footer
+      Playstation , PS4 , and all Logos are trademarks of Sony Computer Entertainment Europe.
+      %br
+      This site is
+      %strong NOT
+      in anyway, shape or form linked to Sony and Playstation
+      %strong AT ALL!
+      %p
+        Build in
+        %a{:href => "http://www.ruby-lang.org"} Ruby
+        by
+        %a{:href => "http://martinhaynes.me/"} DotMH
+
+    %script{:src => "//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"}
+    %script{:src => "/js/hyper.js"}
+    %script{:src => "/js/app.js"}
