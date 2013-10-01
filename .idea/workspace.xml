@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="178e1934-2e52-42ae-b684-b6b5cfe9d522" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Procfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.haml" afterPath="$PROJECT_DIR$/views/index.haml" />
     </list>
     <ignored path="ps4-countdown.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -11,7 +11,7 @@
     <file path="/config.ru" changelist="178e1934-2e52-42ae-b684-b6b5cfe9d522" time="1380559762565" ignored="false" />
     <file path="/layout.haml" changelist="178e1934-2e52-42ae-b684-b6b5cfe9d522" time="1380575251828" ignored="false" />
     <file path="/app.js" changelist="178e1934-2e52-42ae-b684-b6b5cfe9d522" time="1380573965362" ignored="false" />
-    <file path="/index.haml" changelist="178e1934-2e52-42ae-b684-b6b5cfe9d522" time="1380574874823" ignored="false" />
+    <file path="/index.haml" changelist="178e1934-2e52-42ae-b684-b6b5cfe9d522" time="1380614261465" ignored="false" />
     <file path="/app.scss" changelist="178e1934-2e52-42ae-b684-b6b5cfe9d522" time="1380575321161" ignored="false" />
     <file path="/_settings.scss" changelist="178e1934-2e52-42ae-b684-b6b5cfe9d522" time="1380562147936" ignored="false" />
     <file path="/hyper.js" changelist="178e1934-2e52-42ae-b684-b6b5cfe9d522" time="1380573693182" ignored="false" />
@@ -71,7 +71,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Procfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Procfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="38" selection-start="5" selection-end="38" vertical-scroll-proportion="0.0">
@@ -89,10 +89,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.haml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="6" selection-start="84" selection-end="84" vertical-scroll-proportion="-2.5">
+            <state line="6" column="129" selection-start="449" selection-end="449" vertical-scroll-proportion="0.10600707">
               <folding />
             </state>
           </provider>
@@ -149,10 +149,10 @@
         <option value="$PROJECT_DIR$/public/_sass/_header.scss" />
         <option value="$PROJECT_DIR$/public/js/hyper.js" />
         <option value="$PROJECT_DIR$/public/js/app.js" />
-        <option value="$PROJECT_DIR$/views/index.haml" />
         <option value="$PROJECT_DIR$/views/layout.haml" />
         <option value="$PROJECT_DIR$/public/_sass/app.scss" />
         <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/views/index.haml" />
       </list>
     </option>
   </component>
@@ -626,13 +626,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="6" selection-start="84" selection-end="84" vertical-scroll-proportion="-2.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/_sass/_settings.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="19" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
@@ -664,6 +657,13 @@
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="38" selection-start="5" selection-end="38" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="129" selection-start="449" selection-end="449" vertical-scroll-proportion="0.10600707">
           <folding />
         </state>
       </provider>
