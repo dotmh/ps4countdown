@@ -6,4 +6,12 @@ $(function(){
       twitter.attr("data-text" , tweet+" "+time_string);
     });
     $(".timer").hyper({starts_at: new Date(2013,10,29,0,0,0,0)});
+
+    mixpanel.track("Page view");
+
+    $('a').click(function() {
+      mixpanel.track("User clicked on "+$(this).attr("href"));
+    })
+
+
 });
